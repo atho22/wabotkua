@@ -1,0 +1,25 @@
+{
+  "name": "botwa-kua",
+  "type": "nodejs",
+  "version": "18",
+  "buildCommand": "npm install",
+  "startCommand": "npm start",
+  "environmentVariables": {
+    "NODE_ENV": "production",
+    "GEMINI_API_KEY": "${GEMINI_API_KEY}",
+    "BOT_MODE": "hybrid",
+    "AI_MODEL": "gemini-pro",
+    "AI_TEMPERATURE": "0.7",
+    "AI_MAX_TOKENS": "500",
+    "REPLY_IN_GROUPS": "false",
+    "DEBUG": "true"
+  },
+  "healthCheck": {
+    "enabled": false
+  },
+  "resources": {
+    "memory": "512MB",
+    "cpu": "0.5"
+  }
+}
+

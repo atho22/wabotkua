@@ -1,0 +1,9 @@
+node_modules/
+.wwebjs_auth/
+.wwebjs_cache/
+session/
+*.log
+.env
+qr-code.png
+qr-code.txt
+

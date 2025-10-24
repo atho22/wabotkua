@@ -1,0 +1,34 @@
+# Google Gemini API Configuration
+GEMINI_API_KEY=your_gemini_api_key_here
+
+# Bot Configuration
+BOT_MODE=hybrid
+# Options: 
+# - "faq" = Hanya FAQ (tanpa AI)
+# - "ai" = Hanya AI (semua pertanyaan ke AI)
+# - "hybrid" = FAQ dulu, kalau ga ketemu pakai AI (RECOMMENDED)
+
+# AI Settings
+AI_MODEL=gemini-pro
+# gemini-pro untuk Gemini Pro
+# gemini-1.5-flash untuk yang lebih cepat
+
+# Optional: Temperature (kreativitas AI, 0.0 - 1.0)
+AI_TEMPERATURE=0.7
+
+# Optional: Max Tokens
+AI_MAX_TOKENS=500
+
+# Enable/Disable Group Replies
+REPLY_IN_GROUPS=false
+
+# Logging
+DEBUG=true
+
+# ===================================
+# CARA SETUP:
+# 1. Copy file ini dan rename jadi ".env"
+# 2. Isi GEMINI_API_KEY dengan API key kamu
+# 3. Save dan restart bot
+# ===================================
+

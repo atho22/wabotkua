@@ -8,7 +8,7 @@ const config = {
   mode: process.env.BOT_MODE || 'hybrid',
   
   // AI Model
-  model: process.env.AI_MODEL || 'gemini-pro',
+  model: process.env.AI_MODEL || 'gemini-1.5-flash',
   
   // AI Generation Config
   generationConfig: {

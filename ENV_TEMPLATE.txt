@@ -9,9 +9,9 @@ BOT_MODE=hybrid
 # - "hybrid" = FAQ dulu, kalau ga ketemu pakai AI (RECOMMENDED)
 
 # AI Settings
-AI_MODEL=gemini-pro
-# gemini-pro untuk Gemini Pro
-# gemini-1.5-flash untuk yang lebih cepat
+AI_MODEL=gemini-1.5-flash
+# gemini-1.5-flash untuk yang cepat & hemat (RECOMMENDED)
+# gemini-1.5-pro untuk yang lebih powerful
 
 # Optional: Temperature (kreativitas AI, 0.0 - 1.0)
 AI_TEMPERATURE=0.7
